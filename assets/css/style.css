@@ -1,0 +1,19 @@
+#container_main{
+    width: 80%;
+}
+
+.bg-dark-green{
+    background-color: #083b4c;
+}
+
+h1{
+    text-align: center;
+}
+
+.container_numero{
+    width: 100px;
+    border: 1px solid black;
+    height: 100px;
+    background-color: #084c32;
+    text-align: center;
+}
