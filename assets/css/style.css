@@ -1,19 +1,89 @@
-#container_main{
+#container_main {
     width: 80%;
 }
 
-.bg-dark-green{
+.bg-dark-green {
     background-color: #083b4c;
 }
 
-h1{
+h1 {
     text-align: center;
+    font-size: 80px;
 }
 
-.container_numero{
+.container_numero {
+    width: calc(90% / 7);
     width: 100px;
+    gap: 10px;
     border: 1px solid black;
     height: 100px;
-    background-color: #084c32;
+    background-color: #1389b2;
     text-align: center;
+    cursor: pointer;
+}
+
+#fizz {
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 #0cd6a1;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px #00000000;
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+#fizzbuzz {
+    transform: scale(1);
+    animation: pulse-pink 2s infinite;
+}
+
+@keyframes pulse-pink {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 #f0466f;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px #00000000;
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+#buzz {
+    transform: scale(1);
+    animation: pulse-yellow 2s infinite;
+}
+
+@keyframes pulse-yellow {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 #ffd166;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px #00000000;
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
 }
