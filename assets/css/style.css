@@ -23,67 +23,55 @@ h1 {
 }
 
 #fizz {
-    transform: scale(1);
     animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
     0% {
-        transform: scale(0.95);
         box-shadow: 0 0 0 0 #0cd6a1;
     }
 
     70% {
-        transform: scale(1);
         box-shadow: 0 0 0 10px #00000000;
     }
 
     100% {
-        transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 }
 
 #fizzbuzz {
-    transform: scale(1);
     animation: pulse-pink 2s infinite;
 }
 
 @keyframes pulse-pink {
     0% {
-        transform: scale(0.95);
         box-shadow: 0 0 0 0 #f0466f;
     }
 
     70% {
-        transform: scale(1);
         box-shadow: 0 0 0 10px #00000000;
     }
 
     100% {
-        transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 }
 
 #buzz {
-    transform: scale(1);
     animation: pulse-yellow 2s infinite;
 }
 
 @keyframes pulse-yellow {
     0% {
-        transform: scale(0.95);
         box-shadow: 0 0 0 0 #ffd166;
     }
 
     70% {
-        transform: scale(1);
         box-shadow: 0 0 0 10px #00000000;
     }
 
     100% {
-        transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 }
